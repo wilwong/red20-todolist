@@ -1,0 +1,22 @@
+.tasks-list{
+    list-style: none;
+    padding-left: 0;
+    color: white;
+    text-align: left;
+    width: 100%;
+}
+
+
+.tasks-list li{
+    list-style: none;
+}
+
+.tasks-list li .done{
+    color: #bdbdbd;
+    text-decoration: line-through;
+}
+
+.tasks-list li .list-item{
+    display: flex;
+    justify-content: space-between;
+}

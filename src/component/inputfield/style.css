@@ -1,0 +1,32 @@
+.input-module{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.input-field{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    flex:1;
+    margin-right: 1em;
+    color: white;
+    font-size:1em;
+}
+
+.input-field:focus{
+    outline: none;
+    border-bottom: 1px solid white;
+    caret-color: white;
+}
+
+.button-add{
+    border: none;
+    border-radius: 5px;
+    font-size: 0.5em;
+    font-weight: 900;
+    padding: 0.5em 2em;
+    color: white;
+    background-color: darkslategray;
+}
